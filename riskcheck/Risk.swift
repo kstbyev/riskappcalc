@@ -7,6 +7,7 @@ struct RiskEvent: Identifiable {
     var description: String
     var possibleLoss: Double
     var probability: Double
+    var possibleWim: Double
     
     // Validate probability is between 0 and 1
     var validatedProbability: Double {
